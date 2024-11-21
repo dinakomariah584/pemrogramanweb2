@@ -17,11 +17,11 @@
 <body>
     <h1>Implementasi Session</h1>
     <p>Anda sudah mengunjungi halaman ini sebanyak <?php
-        if($_SESSION['count']){
+        if( $_SESSION['count']){
             echo $_SESSION['count'];
         }
         ?>
         kali. 
     </p>
 </body>
-</html>
+</html>        
