@@ -15,7 +15,7 @@ class Home extends BaseController
     }
     public function checkout()
     {
-        return view('chackout');
+        return view('checkout');
     }
     public function search()
     {
