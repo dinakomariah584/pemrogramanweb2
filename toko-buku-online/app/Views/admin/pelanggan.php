@@ -1,4 +1,4 @@
-<?= $this->extend('admin/layout');?>
+<?= $this->extend('admin/layout-pelanggan');?>
 
 <?= $this->section('mainadmin') ?> 
 
