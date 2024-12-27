@@ -29,6 +29,9 @@
     }else{
         echo "cookie kedua belum diset";
     }
+
+    if(isset($_COOKIE['first_cookie']))
+        setcookie('first_cookie');//menghapus cookie first_cookie 
     ?>
 </body>
 </html>
